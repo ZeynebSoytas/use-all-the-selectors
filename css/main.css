@@ -10,7 +10,7 @@ nav ul {
   font-family: sans-serif;
 }
 
-h1 {
+.logo {
   text-transform: uppercase;
 }
 
@@ -21,15 +21,24 @@ h1 {
 #content {
   color: #93a1a1;
 }
-
 #favs {
   color: #93a1a1;
 }
-
 #facts {
   color: #93a1a1;
 }
-
 #types {
   color: #93a1a1;
+}
+
+.dfn > .wrapper {
+  add background-color: #b58900;
+}
+
+strong > .dfn {
+  color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
 }
