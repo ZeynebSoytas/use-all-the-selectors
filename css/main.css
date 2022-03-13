@@ -43,7 +43,7 @@ nav ul {
 }
 
 .dfn > .wrapper {
-   background-color: #b58900;
+  background-color: #b58900;
 }
 
 strong > .dfn {
@@ -68,4 +68,12 @@ li > ol:last-child {
 
 li > .types:nth-child(odd) {
   background-color: #657ba3;
+}
+
+li > .types:nth-child(even) {
+  background-color: #586e75;
+}
+
+li > .types:nth-child(2) {
+  background-color: #d04b16;
 }
